@@ -145,7 +145,8 @@ std::string JSMolBase::get_svg_with_highlights(
   return MinimalLib::mol_to_svg(get(), w, h, details);
 }
 
-std::string JSMolBase::varun_testing_export_something(std::string &details) {
+std::string JSMolBase::varun_testing_export_something(
+    std::string &details) const {
   return details + "something from varun";
 }
 
