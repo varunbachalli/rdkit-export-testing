@@ -146,9 +146,10 @@ std::string JSMolBase::get_svg_with_highlights(
 }
 
 std::string JSMolBase::varun_testing_export_something(
-    std::string &details) const {
-  return details + "something from varun";
-}
+    const std::string &details) const {
+  std::string newDetails = "something from varun";
+  return details + newDetails;
+};
 
 #ifdef RDK_BUILD_INCHI_SUPPORT
 std::string JSMolBase::get_inchi(const std::string &options) const {
