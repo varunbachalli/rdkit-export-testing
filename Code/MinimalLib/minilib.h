@@ -53,7 +53,7 @@ class JSMolBase {
   std::string get_svg() const {
     return get_svg(d_defaultWidth, d_defaultHeight);
   }
-  std::string varun_testing_export_something(std::string &details) const;
+  std::string varun_testing_export_something(const std::string &details) const;
   std::string get_svg_with_highlights(const std::string &details) const;
   std::string get_substruct_match(const JSMolBase &q) const;
   std::string get_substruct_matches(const JSMolBase &q) const;
