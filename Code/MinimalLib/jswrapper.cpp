@@ -490,8 +490,7 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
                 select_overload<std::string(const std::string &) const>(
                     &JSMolBase::get_smiles))
       .function("varun_testing_export_something",
-                select_overload<std::string(const std::string &) const>(
-                    &JSMolBase::varun_testing_export_something))
+                &JSMolBase::varun_testing_export_something)
       .function("get_cxsmiles",
                 select_overload<std::string() const>(&JSMolBase::get_cxsmiles))
       .function("get_cxsmiles",
