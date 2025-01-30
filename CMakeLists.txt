@@ -16,6 +16,7 @@ FIND_PACKAGE(Boost)
 IF (Boost_FOUND)
     INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
     ADD_DEFINITIONS( "-DHAS_BOOST" )
+    message("Boost Found!!")
 ENDIF()
 
 # Enable CTest
