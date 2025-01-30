@@ -411,9 +411,9 @@ if(RDK_BUILD_PYTHON_WRAPPERS)
     message("nbval not found, disabling the jupyter tests")
   endif()
 
-else(RDK_BUILD_PYTHON_WRAPPERS)
-  find_package(Boost ${RDK_BOOST_VERSION} REQUIRED CONFIG)
-endif(RDK_BUILD_PYTHON_WRAPPERS)
+# else(RDK_BUILD_PYTHON_WRAPPERS)
+#   find_package(Boost ${RDK_BOOST_VERSION} REQUIRED CONFIG)
+# endif(RDK_BUILD_PYTHON_WRAPPERS)
 
 find_package(Eigen3)
 if(RDK_BUILD_DESCRIPTORS3D)
