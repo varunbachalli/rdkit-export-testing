@@ -86,6 +86,11 @@ option(RDK_BUILD_MINIMAL_LIB_MOLZIP "build support for molzip into MinimalLib" O
 
 set(RDK_BOOST_VERSION "1.70.0")
 
+if(RDK_BUILD_PYTHON_WRAPPERS)
+  message("Building the python wrappers")
+endif()
+
+
 if(NOT MSVC)
   if(RDK_OPTIMIZE_POPCNT)
     if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(aarch64|arm64)")
