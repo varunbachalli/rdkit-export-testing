@@ -4,11 +4,11 @@
 ## To Export more functions. 
 
 1. fork this rdkit repo.
-2. also clone this repo.
+2. also either clone this repo. 
 3. If you want to add any functions that you want to export, then just export it in jswrapper.cpp
-4. run Code/MinimalLib/scripts/build_rdkitjs.sh 
-5. the exported files will be under MinimalLib/Code/MinimalLib/dist/
-6. Call your function however you want it. 
+4. from the `Code/MinimalLib` directory run `bash scripts/build_rdkitjs.sh` in command line
+5. the exported files will be under `Code/MinimalLib/Code/MinimalLib/dist/`
+6. Use the exported rdkit files
 
 
 ## What is it?
