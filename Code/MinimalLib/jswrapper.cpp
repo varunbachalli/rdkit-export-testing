@@ -665,6 +665,8 @@ EMSCRIPTEN_BINDINGS(RDKit_minimal) {
       .function(
           "condense_abbreviations",
           select_overload<std::string()>(&JSMolBase::condense_abbreviations))
+      .function("condense_abbreviations_from_defs",
+                &JSMolBase::condense_abbreviations_from_defs)
       .function("condense_abbreviations",
                 select_overload<std::string(double, bool)>(
                     &JSMolBase::condense_abbreviations))

@@ -1,6 +1,14 @@
 # RDKit
 [![Azure build Status](https://dev.azure.com/rdkit-builds/RDKit/_apis/build/status/rdkit.rdkit?branchName=master)](https://dev.azure.com/rdkit-builds/RDKit/_build/latest?definitionId=1&branchName=master)
 [![DOI](https://zenodo.org/badge/10009991.svg)](https://zenodo.org/badge/latestdoi/10009991)
+## To Export more functions. 
+
+1. fork this rdkit repo.
+2. also clone this repo.
+3. If you want to add any functions that you want to export, then just export it in jswrapper.cpp
+4. run Code/MinimalLib/scripts/build_rdkitjs.sh 
+5. the exported files will be under MinimalLib/Code/MinimalLib/dist/
+6. Call your function however you want it. 
 
 
 ## What is it?
@@ -66,3 +74,4 @@ We have a yearly user group meeting (the UGM) where members of the community do 
 ## License
 
 Code released under the [BSD license](https://github.com/rdkit/rdkit/blob/master/license.txt).
+
