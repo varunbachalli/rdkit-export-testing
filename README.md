@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/10009991.svg)](https://zenodo.org/badge/latestdoi/10009991)
 ## To Export more functions. 
 
-1. fork this rdkit repo.
+1. fork this rdkit repo. Make whatever changes you want in the clone!
 2. also either clone this repo. 
 3. If you want to add any functions that you want to export, then just export it in jswrapper.cpp
 4. from the `Code/MinimalLib` directory run `bash scripts/build_rdkitjs.sh` in command line
